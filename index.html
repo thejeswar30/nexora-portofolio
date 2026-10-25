@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>My Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+```
+
+</head>
+<body>
+
+```
+<!-- Navigation -->
+<header class="header">
+    <nav class="navbar container">
+
+        <a href="#home" class="logo">My<span>Portfolio</span></a>
+
+        <button
+            class="menu-toggle"
+            id="menu-toggle"
+            aria-label="Toggle navigation"
+            aria-expanded="false"
+            type="button">
+            ☰
+        </button>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button
+            class="theme-toggle"
+            id="theme-toggle"
+            type="button"
+            aria-label="Switch to dark theme">
+            🌙
+        </button>
+
+    </nav>
+</header>
+
+<main>
+
+    <!-- Home -->
+    <section class="hero section" id="home">
+        <div class="container hero-grid">
+
+            <div class="hero-content">
+                <p class="subtitle">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>Hello, I'm <span>Your Name</span></h1>
+
+                <h2>Web Developer & Creative Designer</h2>
+
+                <p>
+                    I build modern, responsive, and user-friendly
+                    websites using HTML, CSS, and JavaScript.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        View Projects
+                    </a>
+
+                    <a href="#contact" class="btn btn-secondary">
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="code-card">
+                    <span class="code-symbol">&lt;/&gt;</span>
+                    <h3>Creative Developer</h3>
+                    <p>Turning ideas into websites.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="subtitle">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-icon">
+                    💻
+                </div>
+
+                <div>
+                    <h3>I'm passionate about web development.</h3>
+
+                    <p>
+                        I enjoy creating websites that combine attractive
+                        design with useful functionality. I am continuously
+                        learning new technologies and improving my skills
+                        through practical projects.
+                    </p>
+
+                    <p>
+                        My interests include responsive design,
+                        frontend development, accessibility, and
+                        interactive user interfaces.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="subtitle">MY EXPERTISE</p>
+                <h2>My <span>Skills</span></h2>
+            </div>
+
+            <div class="skills-grid">
+
+                <article class="skill-card">
+                    <div class="skill-icon">5</div>
+                    <h3>HTML5</h3>
+                    <p>Semantic and accessible web page structure.</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">3</div>
+                    <h3>CSS3</h3>
+                    <p>Responsive layouts, animations, and themes.</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>Interactive features and dynamic content.</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">R</div>
+                    <h3>Responsive Design</h3>
+                    <p>Websites that adapt to mobile, tablet, and desktop.</p>
+                </article>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="subtitle">MY RECENT WORK</p>
+                <h2>My <span>Projects</span></h2>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-image project-one">01</div>
+
+                    <div class="project-content">
+                        <h3>Personal Portfolio</h3>
+
+                        <p>
+                            A responsive website showcasing my
+                            skills, background, and projects.
+                        </p>
+
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image project-two">02</div>
+
+                    <div class="project-content">
+                        <h3>Analytics Dashboard</h3>
+
+                        <p>
+                            A dashboard concept for presenting
+                            information in an organized layout.
+                        </p>
+
+                        <div class="tags">
+                            <span>CSS Grid</span>
+                            <span>Flexbox</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image project-three">03</div>
+
+                    <div class="project-content">
+                        <h3>Landing Page</h3>
+
+                        <p>
+                            A modern landing page concept with
+                            responsive sections and attractive styling.
+                        </p>
+
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS3</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="subtitle">LET'S CONNECT</p>
+                <h2>Contact <span>Me</span></h2>
+            </div>
+
+            <div class="contact-grid">
+
+                <div class="contact-info">
+                    <h3>Let's work on something great.</h3>
+
+                    <p>
+                        Feel free to get in touch about projects,
+                        collaboration, or learning opportunities.
+                    </p>
+
+                    <p>Email: your.email@example.com</p>
+                </div>
+
+                <form id="contact-form">
+
+                    <label for="name">Your Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required>
+
+                    <label for="email">Your Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required>
+
+                    <label for="message">Your Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Write your message"
+                        required></textarea>
+
+                    <button type="submit" class="btn btn-primary">
+                        Submit Message
+                    </button>
+
+                    <p id="form-status" role="status"></p>
+
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container footer-content">
+        <a href="#home" class="logo">My<span>Portfolio</span></a>
+
+        <p>
+            Copyright &copy; <span id="year"></span> Your Name.
+            All rights reserved.
+        </p>
+
+        <a href="#home">Back to Top ↑</a>
+    </div>
+</footer>
+```
+
+</body>
+</html>
